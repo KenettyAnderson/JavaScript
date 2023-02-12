@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: #6969ad;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+
+        /* Number.parseInt = transforma o número recebido pelo prompt em um número inteiro(sem casas decimais) */
+
+        var n2 = Number.parseFloat(window.prompt('Digite outro número '))
+
+        /* Number.parseFloat = transforma o número recebido pelo prompt em um número real(com casas decimais) */
+
+        var n3 = Number(window.prompt('Digite mais um número '))
+        
+        /* Number = transforma o número recebido pelo prompt automaticamente em inteiro ou real, de acordo com a necessidade */
+
+        var s = n1 + n2 + n3
+        window.alert('A soma dos valores é ' + s)
+
+        /*
+            Podemos substituir o alert da linha 31 por:
+
+            window.alert(`A soma entre ${n1} + ${n2} + ${n3} é igual a ${s}`)
+        */        
+      
+
+        /*
+            Para converter/transformar um número para string...
+
+            String(n)
+
+            ou
+
+            n.toString()
+        */
+    </script>
+    
+</body>
+</html>
