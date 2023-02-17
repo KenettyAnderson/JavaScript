@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checagem de estrangeiro</title>
+</head>
+<body>
+    <h1>Checagem de estrangeiro</h1>
+    <label for="opais">De qual pais você é? <input type="text" name="opais" id="opais" required></label><br>
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="resultado">
+        <!-- <p>Resultado</p> -->
+    </div>
+    
+
+    <script>
+        function verificar () {
+            var opais = window.document.querySelector('input#opais')
+            var bra = 'Brasil'
+            if (opais == bra) {
+                resultado.innerHTML = 'Você não é estrangeiro!'
+            } else 
+                resultado.innerHTML = 'Você é estrangeiro!'
+            }
+
+            // resultado.innerHTML = (opais == bra)?'Você não é estrangeiro!':'Você é estrangeiro!'
+
+    </script>
+</body>
+</html>
