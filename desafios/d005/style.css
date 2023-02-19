@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+input {
+    height: 50px;
+    width: 100px;
+}
+
+div#res {
+    padding-top: 20px;
+    line-height: 30px;
+}
