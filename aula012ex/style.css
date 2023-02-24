@@ -7,6 +7,8 @@ body {
 
 h1 {
     color: white;
+    text-shadow: 1px 1px black;
+    font-size: 3em;
 }
 
 section {
@@ -16,11 +18,20 @@ section {
     margin: auto;
 }
 
+h2 {
+    padding-top: 20px;
+}
+
 .img {
     padding-bottom: 20px;
 }
 
-.img_hora {
+section {
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 50%);
+    padding-bottom: 20px;
+}
+
+#imagem {
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -30,4 +41,5 @@ section {
 footer {
     color: white;
     font: italic;
+    text-shadow: 1px 1px black;    
 }
