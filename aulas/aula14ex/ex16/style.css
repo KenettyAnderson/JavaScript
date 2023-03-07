@@ -32,8 +32,26 @@ p {
     padding: 5px 0px;
 }
 
+#nfim {
+    margin-left: 12px;
+}
+
+#npasso {
+    margin-left: 1px;
+}
+
 #botao {
     margin: 10px 0px;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+#botao:hover {
+    color: white;
+    cursor: pointer;
 }
 
 #res {
